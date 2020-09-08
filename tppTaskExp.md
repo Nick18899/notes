@@ -77,4 +77,3 @@
   * Методы
     * public virtual void draw(Graphics graphics) ;
     * public virtual bool isInside(int xx, int yy);
-  
