@@ -21,6 +21,7 @@
   > * t.me/yistarostin
 
 > Николай Рекут — Главный со-редактор
+
 > * github.com/Nick1899
 > * vk.com/nick1899
 
