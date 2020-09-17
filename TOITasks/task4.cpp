@@ -19,9 +19,14 @@ int main()
         cout << 0;
         return 0;
     }
-    double dist = sqrt((float)(((a - c)*( a - c)) + (float)((b - d) * (b - d)))); // distance between segments
-    double gcdd = gcd(abs(c - a), abs(b - d)); //gcd of coordinates differences
-    int res = 2 * (dist  -  (floor(dist / gcdd) + 1)); 
-    cout << res;
+    int absa = abs(a - c);
+    int absb = abs(b - d);
+    int count;
+    int gcdd = gcd(absa, absb); //gcd of coordinates differences
+    count = absa / gcdd;
+    absa /= gcdd;
+    absb /= gcdd;
+    int res = absa + absb - 1;
+    cout << (res * gcdd) << "\n";
     return 0;
 }
