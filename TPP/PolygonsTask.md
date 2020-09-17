@@ -62,11 +62,12 @@
 
 ## Как делать
 
-* abstract class shape
+### abstract Class Shape
+  
   * Наследники:
-    * circle
-    * triangle
-    * square
+    * Circle
+    * Triangle
+    * Square
   * Поля
     * static int R
     * int X
