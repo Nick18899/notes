@@ -18,6 +18,7 @@ int main()
     {
         cout << 0;
         return 0;
+        
     }
     int absa = abs(a - c);
     int absb = abs(b - d);
